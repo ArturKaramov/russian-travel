@@ -1,0 +1,33 @@
+.cover__link {
+  width: 100%;
+  aspect-ratio: 8/5;
+  background-image: url("../../../images/wagons.jpg");
+  background-size: cover;
+  display: grid;
+  gap: 32px;
+  color: #fff;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.cover__link::before {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 1184px;
+  aspect-ratio: 8/5;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 560px) {
+  .cover__link {
+    gap: 16px;
+  }  
+}

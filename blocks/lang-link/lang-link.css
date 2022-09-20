@@ -1,11 +1,10 @@
 .lang-link {
-  padding: 0;
+  padding: 18px 0 6px 0;
   margin: 0;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   line-height: 28px;
-
   text-decoration: none;
   color: #fff;
 }
@@ -14,9 +13,14 @@
   text-decoration: underline;
 }
 
+.lang-link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 320px) {
   .lang-link {
     font-size: 18px;
     line-height: 20px;
+    padding: 14px 0 8px 0;
   }
 }

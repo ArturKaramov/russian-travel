@@ -3,7 +3,6 @@
   margin: 0;
   width: calc(100% - 16px);
   max-width: 460px;
-  
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -15,7 +14,6 @@
     width: calc(340px + ((100vw - 768px)/64)*25);
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .place__title {
@@ -39,6 +37,8 @@
 @media screen and (max-width: 320px) {
   .place__title {
     width: calc(100vw - 32px);
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 

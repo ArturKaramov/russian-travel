@@ -1,3 +1,4 @@
 .lang__links {
+  display: flex;
   gap: 18px;
 }
