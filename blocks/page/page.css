@@ -1,5 +1,4 @@
 .page {
-  width: 100vw;
   background-color: #2a2c2f;
   color: #fff;
   font-family: 'Inter', Arial, sans-serif ;
@@ -9,4 +8,10 @@
   justify-content: flex-start;
   align-items: center;
   margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
 }

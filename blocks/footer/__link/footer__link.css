@@ -3,6 +3,7 @@
   padding: 0;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.3s;
 }
 
 .footer__link:hover {

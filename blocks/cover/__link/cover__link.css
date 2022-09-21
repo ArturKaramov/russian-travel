@@ -20,14 +20,15 @@
   opacity: 0.3;
   position: absolute;
   z-index: -1;
+  transition: opacity 0.3s;
 }
 
 .cover__link:hover::before {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 @media screen and (max-width: 560px) {
   .cover__link {
     gap: 16px;
-  }  
+  }
 }
