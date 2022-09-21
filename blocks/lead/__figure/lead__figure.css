@@ -4,10 +4,17 @@
   max-width: 984px;
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__figure {
     max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    align-items: center;
   }
 }
