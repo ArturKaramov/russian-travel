@@ -1,5 +1,7 @@
 .cover__link {
   width: 100%;
+  max-width: 1184px;
+  margin: auto;
   aspect-ratio: 8/5;
   background-image: url("../../../images/wagons.jpg");
   background-size: cover;

@@ -11,14 +11,9 @@
   }
 }
 
-@media screen and (max-width: 460px) {
-  .place__description {
-    width: calc(100vw - 48px);
-  }
-}
-
 @media screen and (max-width: 320px) {
   .place__description {
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
+    margin-left: 16px;
   }
 }
