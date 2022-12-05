@@ -13,5 +13,8 @@
 - [CSS](https://ru.wikipedia.org/wiki/CSS)
 - [Методология БЭМ](https://ru.wikipedia.org/wiki/БЭМ)
 
+# GitHub Pages
+- [Путешествия по России](https://arturkaramov.github.io/russian-travel/)
+
 # Автор проекта
 - [Карамов Артур](https://github.com/ArturKaramov)
